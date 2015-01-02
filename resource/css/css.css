@@ -1,0 +1,85 @@
+body {
+}
+h1,h2,h3,h4{
+    color: #C32A29;
+}
+.site-title h1{
+    font-size: 50px;
+    color: #ef0606;
+}
+.site-title h3{
+    font-size: 20px;
+    color: #eb4b4b;
+}
+.site-title h1,.site-title h3{
+    margin: 0;
+}
+.site-title .logo{
+    
+}
+.site-title .text{
+    padding-left: 3px;
+}
+ul#menu li:hover{
+    background: #ef0606;
+}
+ul#menu li a:hover {
+    color: #ffffff;
+}
+#main-content{
+    padding: 3px;
+    min-height:520px;
+}
+ul#issue-link{
+    list-style: none;
+}
+ul#issue-link li a{
+  background-image: url("../image/issues_bg.png");
+    background-repeat: no-repeat;
+    color: #ef0606;
+    display: block;
+    font-family: tahoma;
+    font-size: 21px;
+    height: 95px;
+    list-style: outside none none;
+    padding: 5px 12px;
+    text-decoration: none;
+    width: 294px;
+}
+.clear{
+    clear: both;
+}
+#main-content{
+    margin: 0 auto;text-align: left;max-width: 1024px;
+    text-align: justify;
+}
+
+#blog-gallery{
+    max-height: 350px;
+    overflow: auto;
+}
+#gallery-brief,#recent-blogs{
+    width: 50%;
+    float: left;
+    height: 100%;
+}
+#contact-content{
+    text-align: center;
+}
+
+#top-nav a{
+    font-size: 10px;
+}
+
+#address-div,#feedback-form{
+    width: 50%;
+    float: left;
+}
+#feedback-form input,#feedback-form button{
+    font-size: 15px;
+}
+
+img.director{
+    height: 75px;
+    margin: 2px;
+}

@@ -1,0 +1,15 @@
+@media only screen and (max-width: 850px) {
+  
+#main-content{
+   padding: 2px;
+}
+  #gallery-brief, #recent-blogs {
+        width: auto;
+        float: none;
+    }
+
+#address-div,#feedback-form{
+    width: auto;
+    float: none;
+}
+}
