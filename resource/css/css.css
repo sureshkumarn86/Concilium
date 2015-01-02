@@ -3,6 +3,9 @@ body {
 h1,h2,h3,h4{
     color: #C32A29;
 }
+.img_logo{
+    height: 90px;
+}
 .site-title h1{
     font-size: 50px;
     color: #ef0606;
@@ -19,6 +22,13 @@ h1,h2,h3,h4{
 }
 .site-title .text{
     padding-left: 3px;
+}
+.navigation{
+ text-align: center;   
+}
+ul#menu{
+    max-width: 1024px;
+    margin: 0 auto;
 }
 ul#menu li:hover{
     background: #ef0606;
@@ -52,6 +62,10 @@ ul#issue-link li a{
 #main-content{
     margin: 0 auto;text-align: left;max-width: 1024px;
     text-align: justify;
+}
+
+#slider1_container{
+    float: right;
 }
 
 #blog-gallery{

@@ -1,6 +1,25 @@
 <?php 
+ error_reporting(E_ALL | E_STRICT);
+ini_set('display_errors', 1);
 $pageTitle='Contact us';
-        include("Includes/header.php");         
+        include("Includes/header.php");   
+        $success_msg='';      
+        if(!empty($_POST['query'])){
+            $name=$_POST['name'];
+            $phone=$_POST['phone'];
+            $mail=$_POST['mail'];
+            $query=$_POST['query'];
+            $msg='<table>'.
+            '<tr><td>Name:</td><td>'.$name.'</td></tr>'.
+            '<tr><td>phone:</td><td>'.$phone.'</td></tr>'.
+            '<tr><td>mail:</td><td>'.$mail.'</td></tr>'.
+            '<tr><td>query:</td><td>'.$query.'</td></tr>'.
+            '</table>';            
+            $headers = "From: query@concilium.in" . "\r\n" .
+            "CC: concilium.madras@gmail.com,sureshkumarn86@gmail.com";
+            mail("admin@concilium.in","Query/Feedbak from Concilium.in",$msg,$headers);
+            $success_msg='Your Query/Feedback received. Thanks.';
+        }
 ?>
 <div id="contact-content">
 <img src="resource/image/conciliumoff.png"  alt="Concilium Office"/>
@@ -22,6 +41,11 @@ Email : Concilium.madras@gmail.com<br/></p>
     <div id="feedback-form" class="float-right">
     
     <h3>Feedback/Query Form</h3>
+        <?php 
+            if($success_msg!=''){
+                echo $success_msg;
+            }else{
+        ?>
         <form method="post">
     <label for="name">Name:</label><br/>
     <input name="name" id="name" placeholder="Your Name"/><br/>
@@ -31,8 +55,9 @@ Email : Concilium.madras@gmail.com<br/></p>
     <input name="mail" id="mail" placeholder="E-Mail"/><br/>
     <label for="query">Feedback/Query:</label><br/>
     <input name="query" id="query" placeholder="Feedback/Query"/><br/>
-            <button type="button">Send</button>
+            <button type="submit">Send</button>
             </form>
+        <?php } ?>
     </div>
         <br class="clear"/>
         </div>

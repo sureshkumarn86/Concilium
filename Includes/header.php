@@ -24,7 +24,7 @@ error_reporting(E_ALL);
         <header>
             <div class="content-wrapper">
                 <div class="float-left">
-                    <div class="site-title"><a href="/index.php"> <div class="logo float-left"> <img src="resource/image/logo.png" alt="Concilium" class="img_logo"/></div> <div class="text float-left"><h1>Concilium</h1><h3>International Journal Of Theology</h3></div>
+                    <div class="site-title"><a href="/index.php"> <div class="logo float-left"> <img src="resource/image/logo3_1.png" alt="Concilium" class="img_logo"/></div> <div class="text float-left"><h1>Concilium</h1><h3>International Journal Of Theology</h3></div>
                         <br class="clear-fix"/> </a></div>
                 </div>
                 <div class="float-right" id="top-nav"><a href="index.php">Home</a> | <a href="contact.php">Contact</a></div>

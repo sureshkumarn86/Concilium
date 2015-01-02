@@ -26,7 +26,7 @@ $useFopenURL = 0;
 // If XLMFILE is passed as part of the URL, XMLFILE=, then it will be used
 // otherwise the the file below is used.
 //$XMLfilename = 'http://examlple.com/sample.xml';
-$XMLfilename = 'http://test1.concilium.in/feeds/posts/default?alt=rss';//sample.xml';
+$XMLfilename = 'http://conciliumindia.blogspot.com/feeds/posts/default?alt=rss';//sample.xml';
 
 //
 // If TEMPLATE is passed as part of the URL. TEMPLATE=, then it will be used

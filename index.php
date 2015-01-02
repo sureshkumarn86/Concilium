@@ -8,7 +8,7 @@
             <div>
                 
 
-<div id="slider1_container" class="float-right" style="position: relative; top: 0px; left: 0px; width: 600px; height: 300px;">
+<div id="slider1_container" style="position: relative; top: 0px; left: 0px; width: 600px; height: 300px;">
     <!-- Slides Container -->
     <div u="slides" style="cursor: move; position: absolute; overflow: hidden; left: 0px; top: 0px; width: 600px; height: 300px;">
         <div><img u="image" src="resource/image/slide/slide1.jpg" /></div>
@@ -63,9 +63,27 @@ The writers of the articles are chosen from among the best scholars of the quest
         var options = { $AutoPlay: true };
         var jssor_slider1 = new $JssorSlider$('slider1_container', options);
 
-        //responsive code begin
-        //you can remove responsive code if you don't want the slider scales while window resizes
+            //responsive code begin
+            //you can remove responsive code if you don't want the slider scales while window resizes
+            function ScaleSlider() {
+                var parentWidth = jssor_slider1.$Elmt.parentNode.clientWidth;
+                if (parentWidth) {
+                    var sliderWidth = parentWidth;
 
+                    //keep the slider width no more than 800
+                    sliderWidth = Math.min(sliderWidth, 600);
+
+                    jssor_slider1.$ScaleWidth(sliderWidth);
+                }
+                else
+                    window.setTimeout(ScaleSlider, 30);
+            }
+            ScaleSlider();
+
+            $(window).bind("load", ScaleSlider);
+            $(window).bind("resize", ScaleSlider);
+            $(window).bind("orientationchange", ScaleSlider);
+            //responsive code end
 
         $('#recent-blogs').html('Loading recent blogs...Please wait.');
         $.ajax('/blogfeed/rss2html.php').done(function (data) {
