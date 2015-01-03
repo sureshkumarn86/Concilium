@@ -5,6 +5,7 @@ h1,h2,h3,h4{
 }
 .img_logo{
     height: 90px;
+    border-radius: 20px 20px 42px 42px;
 }
 .site-title h1{
     font-size: 50px;
@@ -40,6 +41,7 @@ ul#menu li a:hover {
     padding: 3px;
     min-height:520px;
 }
+
 ul#issue-link{
     list-style: none;
 }
@@ -73,7 +75,7 @@ ul#issue-link li a{
     overflow: auto;
 }
 #gallery-brief,#recent-blogs{
-    width: 50%;
+    width: 49%;
     float: left;
     height: 100%;
 }
@@ -96,4 +98,18 @@ ul#issue-link li a{
 img.director{
     height: 75px;
     margin: 2px;
+}
+
+
+#gallery-brief img {
+    box-shadow: 3px 3px 3px red;
+    float: left;
+    height: 110px;
+    margin: 10px;
+    width: 140px;
+    -webkit-transition: box-shadow 0.5s; /* For Safari 3.1 to 6.0 */
+    transition: box-shadow 0.5s;
+}
+#gallery-brief img:hover {
+    box-shadow: 0px 0px 3px red;
 }

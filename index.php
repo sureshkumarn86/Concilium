@@ -43,13 +43,21 @@ The writers of the articles are chosen from among the best scholars of the quest
             
             <div>
             
-                 <h2>OUR MISSION</h2>
+                 <h2>Our Mission</h2>
                 <p>As a community, the International Association of Conciliar Theology, we journey with people of good will who are sensitive to the challenges of our times. We reflect on Christian tradition (supported by solid scholarship) in the light of cultural and religious experiences and socio-political developments. The Scriptures narrate God´s incarnation by which Christ Jesus shares the life of the world. Traces of God's liberating presence are found in stories and struggles of women and men that “have life and have it to the full” (John 10:10).
 
                     </p>
             </div>
             <div id="blog-gallery">
-            <div id="gallery-brief" class="float-left"><h1>Gallery</h1></div>
+            <div id="gallery-brief" class="float-left">
+                <h1>Gallery</h1>
+            <div>
+            <?php for($i=0;$i<6;$i++){ ?>
+                <img alt="gallery" src="resource/image/gallery/home/img<?php echo $i+1?>.jpg"/>
+            <?php } ?>
+                <a href="gallery.php">Go to Gallery Page&gt;&gt;</a>
+            </div>
+            </div>
             <div id="recent-blogs" class="float-left"></div>
                 <br class="clear"/>
             </div>
