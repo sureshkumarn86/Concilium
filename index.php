@@ -11,10 +11,10 @@
 <div id="slider1_container" style="position: relative; top: 0px; left: 0px; width: 600px; height: 300px;">
     <!-- Slides Container -->
     <div u="slides" style="cursor: move; position: absolute; overflow: hidden; left: 0px; top: 0px; width: 600px; height: 300px;">
-        <div><img u="image" src="resource/image/slide/slide1.jpg" /></div>
-        <div><img u="image" src="resource/image/slide/slide2.jpg" /></div>
-        <div><img u="image" src="resource/image/slide/slide3.jpg" /></div>
-        <div><img u="image" src="resource/image/slide/slide4.jpg" /></div>
+        <div><img u="image" src2="resource/image/slide/slide1.jpg" /></div>
+        <div><img u="image" src2="resource/image/slide/slide2.jpg" /></div>
+        <div><img u="image" src2="resource/image/slide/slide3.jpg" /></div>
+        <div><img u="image" src2="resource/image/slide/slide4.jpg" /></div>
     </div>
 </div>
                 
@@ -60,7 +60,7 @@ The writers of the articles are chosen from among the best scholars of the quest
      <script src="resource/js/jssor.slider.mini.js"></script>
 <script>
     jQuery(document).ready(function ($) {
-        var options = { $AutoPlay: true };
+        var options = { $AutoPlay: true,$LazyLoading:0 };
         var jssor_slider1 = new $JssorSlider$('slider1_container', options);
 
             //responsive code begin

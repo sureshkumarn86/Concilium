@@ -6,7 +6,7 @@ error_reporting(E_ALL);
 <html lang="en">
     <head>
         <meta charset="utf-8" />
-        <title>Concilium - <?php echo isset($pageTitle)?$pageTitle:'Welcome'?></title>
+        <title>Concilium - <?php echo isset($pageTitle)?$pageTitle:'Welcome to the International Journal Of Theology'?></title>
         <link href="resource/css/Site.css" rel="stylesheet" type="text/css" />
         <link href="resource/css/css.css" rel="stylesheet" type="text/css" />
         <link href="resource/css/css850.css" rel="stylesheet" type="text/css" />
