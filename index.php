@@ -28,14 +28,14 @@ It is published five times a year.
                 <ul id="issue-link">
                 <li class="current-issue"><a href="current-issues.php"> Current Issues</a></li>
                 <li class="future-issue"><a href="future-issues.php">Future Issues</a> </li>
-            <br class="clear-fix"/>
+            <li class="clear"></li>
                 </ul>
-                <p>
+               <?php /* <p>
 The editors of the review belong to "who's who" in the world of theology.
 Each issue takes up and studies a relevant and contemporary theme.
 The writers of the articles are chosen from among the best scholars of the question in the world.
                 </p>
-
+                */?>
             <br class="clear"/>
         </div>
             <div>
@@ -55,7 +55,9 @@ The writers of the articles are chosen from among the best scholars of the quest
             <?php for($i=0;$i<6;$i++){ ?>
                 <img alt="gallery" src="resource/image/gallery/home/img<?php echo $i+1?>.jpg"/>
             <?php } ?>
+                <br class="clear"/>
                 <a href="gallery.php">Go to Gallery Page&gt;&gt;</a>
+
             </div>
             </div>
             <div id="recent-blogs" class="float-left"></div>

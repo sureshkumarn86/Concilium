@@ -27,6 +27,29 @@ As a Catholic Review of Theology, Concilium reaffirms its mission within the ren
     </p><p>
 We contribute to ecumenical and to inter-religious dialogue. We deal with global factors and communications, hoping that a renewed church and “another world” are possible (World Social Forum). Thus our Review intends its contribution to the future of Christian tradition of which it is a part and to which it holds itself accountable.
 </p>
+
+<div>
+    <h2>Founders of the International Theological Journal –Concilium</h2>
+    <ul>
+<li>	Anton van den Boogaard	</li>
+<li>	Paul Brand	</li>
+<li>	Yves Congar, OP	</li>
+<li>	Hans Kung	</li>
+<li>	Johann Baptist Metz	</li>
+<li>	Karl Rahner,	</li>
+<li>	Edward Schillebeeckx	</li>
+    </ul>
+
+<h2>         Board of Directors</h2>
+
+<ul>
+<li>President: <strong>                    Felix Wilfred</strong></li>
+<li>Vice Presidents: <strong>Susan Ross, Diego Irarrazaval, Thierry-Marie Courau</strong></li>
+</ul>
+    </div>
+
+
+
 <?php 
     include ("Includes/footer.php");
  ?>

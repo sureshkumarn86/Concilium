@@ -15,8 +15,10 @@ $pageTitle='Contact us';
             '<tr><td>mail:</td><td>'.$mail.'</td></tr>'.
             '<tr><td>query:</td><td>'.$query.'</td></tr>'.
             '</table>';            
-            $headers = "From: query@concilium.in" . "\r\n" .
-            "CC: concilium.madras@gmail.com,sureshkumarn86@gmail.com";
+            $headers = "From: query@concilium.in" . "\r\n" ;
+$headers  .= 'MIME-Version: 1.0' . "\r\n";
+$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+$headers  .= "CC: concilium.madras@gmail.com,sureshkumarn86@gmail.com";
             mail("admin@concilium.in","Query/Feedbak from Concilium.in",$msg,$headers);
             $success_msg='Your Query/Feedback received. Thanks.';
         }

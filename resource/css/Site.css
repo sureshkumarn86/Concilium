@@ -212,7 +212,8 @@ ul#menu {
         display:block;
         float: left;
         text-align:center;
-        padding:0 20px;
+        padding:0 15px;
+        transition: background 0.5s;
     }
 
         ul#menu li a {

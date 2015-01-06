@@ -20,4 +20,7 @@
 ul#issue-link li a{
     background-size: 72%;
 }
+#blog-gallery{
+    max-height: none;
+}
 }
