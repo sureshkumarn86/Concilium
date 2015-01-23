@@ -45,7 +45,7 @@ The writers of the articles are chosen from among the best scholars of the quest
             <div>
             
                  <h2>Our Mission</h2>
-                <p>As a community, the International Association of Conciliar Theology, we journey with people of good will who are sensitive to the challenges of our times. We reflect on Christian tradition (supported by solid scholarship) in the light of cultural and religious experiences and socio-political developments. The Scriptures narrate GodÂ´s incarnation by which Christ Jesus shares the life of the world. Traces of God's liberating presence are found in stories and struggles of women and men that â€œhave life and have it to the fullâ€� (John 10:10).
+                <p>As a community, the International Association of Conciliar Theology, we journey with people of good will who are sensitive to the challenges of our times. We reflect on Christian tradition (supported by solid scholarship) in the light of cultural and religious experiences and socio-political developments. The Scriptures narrate God's incarnation by which Christ Jesus shares the life of the world. Traces of God's liberating presence are found in stories and struggles of women and men that "have life and have it to the full" (John 10:10).
 
                     </p>
             </div>

@@ -17,7 +17,7 @@
            </table>
          </div>
    <div class="publisher-block">
-    <h2>MATTHIAS-GRÃƒÅ“NEWALD-VERLAG/SCHWABENVERLA</h2>
+    <h2>MATTHIAS-GRÃƒÅ"NEWALD-VERLAG/SCHWABENVERLA</h2>
   
            <table>
            <tr><td>Name:</td><td>Dr. Norbert ReckG</td></tr>
