@@ -11,7 +11,7 @@
                 </div>
                 <div class="float-right">
                     <ul id="social">
-                        <li><a href="http://facebook.com" class="facebook">Facebook</a></li>
+                        <li><a target="_blankfb" href="http://www.facebook.com/pages/Concilium-India/403532689810804" class="facebook">Facebook</a></li>
                         <li><a href="http://twitter.com" class="twitter">Twitter</a></li>
                     </ul>
                 </div>

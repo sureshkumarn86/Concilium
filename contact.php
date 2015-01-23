@@ -7,7 +7,7 @@ $pageTitle='Contact us';
         if(!empty($_POST['query'])){
             $name=$_POST['name'];
             $phone=$_POST['phone'];
-            $mail=$_POST['mail'];
+            $mail=$_POST['email'];
             $query=$_POST['query'];
             $msg='<table>'.
             '<tr><td>Name:</td><td>'.$name.'</td></tr>'.
@@ -54,7 +54,7 @@ Email : Concilium.madras@gmail.com<br/></p>
     <label for="phone">Phone:</label><br/>
     <input name="phone" id="phone" placeholder="Your Phone Number"/><br/>
     <label for="mail">E-mail:</label><br/>
-    <input name="mail" id="mail" placeholder="E-Mail"/><br/>
+    <input name="email" id="mail" placeholder="E-Mail"/><br/>
     <label for="query">Feedback/Query:</label><br/>
     <input name="query" id="query" placeholder="Feedback/Query"/><br/>
             <button type="submit">Send</button>
@@ -63,6 +63,8 @@ Email : Concilium.madras@gmail.com<br/></p>
     </div>
         <br class="clear"/>
         </div>
+    
+<!-- Facebook Badge START --><a target="_blankfb"  href="https://www.facebook.com/pages/Concilium-India/403532689810804" title="Concilium India" style="font-family: &quot;lucida grande&quot;,tahoma,verdana,arial,sans-serif; font-size: 11px; font-variant: normal; font-style: normal; font-weight: normal; color: #3B5998; text-decoration: none;" target="_TOP">Follow Us..</a><span style="font-family: &#039;lucida grande&#039;,tahoma,verdana,arial,sans-serif;font-size: 11px;line-height: 16px;font-variant: normal;font-style: normal;font-weight: normal;color: #555555;text-decoration: none;">&nbsp;</span><br /><a target="_blankfb"  href="https://www.facebook.com/pages/Concilium-India/403532689810804" title="Concilium India" target="_TOP"><img class="img" src="https://badge.facebook.com/badge/403532689810804.415.766320860.png" style="border: 0px;max-width:90%;" alt="" /></a><!-- Facebook Badge END -->
 <br/>
     <br/>
     <p>Concilium Subscription Form

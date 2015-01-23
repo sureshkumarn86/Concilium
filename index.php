@@ -40,15 +40,19 @@ The writers of the articles are chosen from among the best scholars of the quest
         </div>
             <div>
             </div>
+
             
             <div>
             
                  <h2>Our Mission</h2>
-                <p>As a community, the International Association of Conciliar Theology, we journey with people of good will who are sensitive to the challenges of our times. We reflect on Christian tradition (supported by solid scholarship) in the light of cultural and religious experiences and socio-political developments. The Scriptures narrate God´s incarnation by which Christ Jesus shares the life of the world. Traces of God's liberating presence are found in stories and struggles of women and men that “have life and have it to the full” (John 10:10).
+                <p>As a community, the International Association of Conciliar Theology, we journey with people of good will who are sensitive to the challenges of our times. We reflect on Christian tradition (supported by solid scholarship) in the light of cultural and religious experiences and socio-political developments. The Scriptures narrate GodÂ´s incarnation by which Christ Jesus shares the life of the world. Traces of God's liberating presence are found in stories and struggles of women and men that â€œhave life and have it to the fullâ€� (John 10:10).
 
                     </p>
             </div>
+<div align="center" > <!-- Facebook Badge START --><a target="_blankfb"  href="https://www.facebook.com/pages/Concilium-India/403532689810804" title="Concilium India" style="font-family: &quot;lucida grande&quot;,tahoma,verdana,arial,sans-serif; font-size: 11px; font-variant: normal; font-style: normal; font-weight: normal; color: #3B5998; text-decoration: none;" target="_TOP">Follow us on facebook..</a><span style="font-family: &#039;lucida grande&#039;,tahoma,verdana,arial,sans-serif;font-size: 11px;line-height: 16px;font-variant: normal;font-style: normal;font-weight: normal;color: #555555;text-decoration: none;">&nbsp;</span><br /><a target="_blankfb"  href="https://www.facebook.com/pages/Concilium-India/403532689810804" title="Concilium India" target="_TOP"><img class="img" src="https://badge.facebook.com/badge/403532689810804.415.766320860.png" style="border: 0px;max-width:90%;" alt="" /></a><!-- Facebook Badge END --></div>
             <div id="blog-gallery">
+
+
             <div id="gallery-brief" class="float-left">
                 <h1>Gallery</h1>
             <div>
@@ -96,7 +100,7 @@ The writers of the articles are chosen from among the best scholars of the quest
             //responsive code end
 
         $('#recent-blogs').html('Loading recent blogs...Please wait.');
-        $.ajax('/blogfeed/rss2html.php').done(function (data) {
+        $.ajax('blogfeed/rss2html.php').done(function (data) {
             $('#recent-blogs').html(data);
         });
     });
