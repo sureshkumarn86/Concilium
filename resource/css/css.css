@@ -116,3 +116,31 @@ img.director{
 #gallery-brief img:hover {
     box-shadow: 0px 0px 3px red;
 }
+.issue{
+	text-align: center;
+}
+.issue-action{
+	line-height: 30px;
+}
+.issue-action button,.issue-action a{
+	height: 35px;
+	border:2px groove;
+	text-decoration:none;
+	padding:3px;
+	color:#400080;
+	font-weight:bold;
+    background: -webkit-linear-gradient(left, red , #cc5fd8); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, red, #cc5fd8); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, red, #cc5fd8); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, red , #cc5fd8); /* Standard syntax (must be last) */
+}
+.grad1 {
+    background: -webkit-linear-gradient(left, red , blue); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, red, blue); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, red, blue); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, red , blue); /* Standard syntax (must be last) */
+}
+.subscribe-msg{
+	text-align: center;
+	font-weight: bold;
+}

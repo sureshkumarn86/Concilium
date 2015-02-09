@@ -38,7 +38,7 @@ error_reporting(E_ALL);
 						<li><a href="board-directors.php">Board Of Directors</a></li>
 						<li><a href="board-editors.php">	Board of Editors</a></li>
 						<li><a href="publishers.php">Publishers</a></li>
-						<li><a href="current-issues.php">Issues</a></li>
+						<li><a href="issues.php">Issues</a></li>
 						<li><a href="news.php">News</a></li>
 						<li><a href="statements.php">Statements</a></li>
 						<li><a href="contact.php">Contact Us</a></li>
