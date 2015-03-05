@@ -1,4 +1,4 @@
-    <?php 
+<?php 
         //require_once ("Includes/simplecms-config.php"); 
        // require_once  ("Includes/connectDB.php");
         include("Includes/header.php");         
@@ -30,7 +30,7 @@ It is published five times a year.
                 <li class="future-issue"><a href="future-issues.php">Future Issues</a> </li>
             <li class="clear"></li>
                 </ul>
-               <?php /* <p>
+           <?php /* <p>
 The editors of the review belong to "who's who" in the world of theology.
 Each issue takes up and studies a relevant and contemporary theme.
 The writers of the articles are chosen from among the best scholars of the question in the world.
@@ -56,15 +56,21 @@ The writers of the articles are chosen from among the best scholars of the quest
             <div id="gallery-brief" class="float-left">
                 <h1>Gallery</h1>
             <div>
-            <?php for($i=0;$i<6;$i++){ ?>
+        <?php for($i=0;$i<6;$i++){ ?>
                 <img alt="gallery" src="resource/image/gallery/home/img<?php echo $i+1?>.jpg"/>
-            <?php } ?>
+        <?php } ?>
                 <br class="clear"/>
                 <a href="gallery.php">Go to Gallery Page&gt;&gt;</a>
 
             </div>
             </div>
-            <div id="recent-blogs" class="float-left"></div>
+            <div id="recent-news" class="float-left">
+            <h1>Recent News</h1>
+        <?php 
+            $dlimit=10;
+            include('getnewslist.php');
+            ?>
+            </div>
                 <br class="clear"/>
             </div>
     </div>
@@ -97,12 +103,7 @@ The writers of the articles are chosen from among the best scholars of the quest
             $(window).bind("load", ScaleSlider);
             $(window).bind("resize", ScaleSlider);
             $(window).bind("orientationchange", ScaleSlider);
-            //responsive code end
-
-        $('#recent-blogs').html('Loading recent blogs...Please wait.');
-        $.ajax('blogfeed/rss2html.php').done(function (data) {
-            $('#recent-blogs').html(data);
-        });
+            //responsive code end
     });
 
 </script>

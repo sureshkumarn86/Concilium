@@ -1,4 +1,4 @@
-    <?php 
+<?php 
  $pageTitle='About Us';
         //require_once ("Includes/simplecms-config.php"); 
        // require_once  ("Includes/connectDB.php");

@@ -1,0 +1,11 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteRule ^browse/content/$ /resource/issue-content/index.php [NC,L]
+RewriteRule ^browse/content/?(.*)$ /resource/issue-content/index.php?$1 [NC,L]
+RewriteRule ^browse/content/(.*)$ /resource/issue-content/$1 [NC,L]
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+RewriteRule ^issue-detail/(\d*)/(.*)$ issue-detail.php?id=$1 [NC,L]
+RewriteRule ^thumbnail/coverimg/(.*)/(.*)$ thumbnail.php?file=resource/issue-content/$1/$2 [NC,L]
+

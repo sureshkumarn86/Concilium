@@ -95,7 +95,7 @@ ul#issue-link li a{
     font-size: 15px;
 }
 
-img.director{
+img.director,img.editor-thumb{
 	height: 88px;
 	margin: 2px;
 	width: 88px;
@@ -103,6 +103,12 @@ img.director{
 	box-shadow: 0px 0px 7px;
 }
 
+.editor-block p img.editor-thumb {
+    float:left; 
+}
+.editor-block p:nth-of-type(2n) img.editor-thumb {
+    float:right; clear:right;
+}
 
 #gallery-brief img {
     box-shadow: 3px 3px 3px red;
@@ -143,4 +149,31 @@ img.director{
 .subscribe-msg{
 	text-align: center;
 	font-weight: bold;
+}
+
+.issueyear,.issueterm{color: blue;font-weight: bold;}
+
+.issuetitle{color:red;font-weight: bold;font-size: 17px;}
+.issueautherc{color: blue;font-weight: bold;}
+.issueauther{}
+
+ul.issue-list li{
+	list-style: none;
+}
+ul.issue-list li:hover{
+	background:  rgb(231, 200, 200);
+	
+}
+
+
+
+.cke_skin_v2 input.cke_dialog_ui_input_text, .cke_skin_v2 input.cke_dialog_ui_input_password {
+    background-color: white;
+    border: none;
+    padding: 0;
+    width: 100%;
+    height: 14px;
+    /* new lines */
+    position: relative;
+    z-index: 9999;
 }

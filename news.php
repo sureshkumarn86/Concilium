@@ -1,10 +1,7 @@
-    <?php  $pageTitle='News';
+<?php  $pageTitle='Concilium News';
         //require_once ("Includes/simplecms-config.php"); 
        // require_once  ("Includes/connectDB.php");
-        include("Includes/header.php");         
-     ?>
-
-Page under construction...
-<?php 
-    include ("Includes/footer.php");
+        include("Includes/header.php");
+        include 'getnewslist.php';
+        include ("Includes/footer.php");
  ?>

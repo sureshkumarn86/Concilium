@@ -1,10 +1,16 @@
 <?php 
+//session_start();
  error_reporting(E_ALL | E_STRICT);
 ini_set('display_errors', 1);
 $pageTitle='Contact us';
         include("Includes/header.php");   
         $success_msg='';      
-        if(!empty($_POST['query'])){
+        
+        include_once $_SERVER['DOCUMENT_ROOT'] . '/securimage/securimage.php';
+        
+        $securimage = new Securimage();
+
+        if(!empty($_POST['query']) && !empty($_POST['captcha_code']) && $securimage->check($_POST['captcha_code'])){
             $name=$_POST['name'];
             $phone=$_POST['phone'];
             $mail=$_POST['email'];
@@ -24,7 +30,7 @@ $headers  .= "CC: concilium.madras@gmail.com,sureshkumarn86@gmail.com";
         }
 ?>
 <div id="contact-content">
-<img src="resource/image/conciliumoff.png"  alt="Concilium Office"/>
+<img src="resource/image/conciliumoff.png" style="max-width: 80%" alt="Concilium Office"/>
    <h3> "Concilium Secretariat, Madras"</h3>
     <div>
     <div id="address-div" class="float-left">
@@ -43,7 +49,7 @@ Email : Concilium.madras@gmail.com<br/></p>
     <div id="feedback-form" class="float-right">
     
     <h3>Feedback/Query Form</h3>
-        <?php 
+    <?php 
             if($success_msg!=''){
                 echo $success_msg;
             }else{
@@ -57,9 +63,24 @@ Email : Concilium.madras@gmail.com<br/></p>
     <input name="email" id="mail" placeholder="E-Mail"/><br/>
     <label for="query">Feedback/Query:</label><br/>
     <input name="query" id="query" placeholder="Feedback/Query"/><br/>
+    <label for="query">Verification Code:</label><br/>
+    
+    <img id="captcha" src="/securimage/securimage_show.php" style="max-width: 180px" alt="CAPTCHA Image" /><br/>
+<a href="#" onclick="document.getElementById('captcha').src = '/securimage/securimage_show.php?' + Math.random(); return false">[new]</a>
+ <br/>   <input type="text" name="captcha_code"  maxlength="6" placeholder="Verification Code" title="Please Type the code shown above."/>
+<?php 
+if (isset($_POST['captcha_code']) && $securimage->check($_POST['captcha_code']) == false) {
+	// the code was incorrect
+	// you should handle the error so that the form processor doesn't continue
+
+	// or you can use the following code if there is no validation or you do not know how
+	echo "<br/> The security code entered was incorrect.";
+}
+?>
+<br/><br />
             <button type="submit">Send</button>
             </form>
-        <?php } ?>
+    <?php } ?>
     </div>
         <br class="clear"/>
         </div>
@@ -68,7 +89,7 @@ Email : Concilium.madras@gmail.com<br/></p>
 <br/>
     <br/>
     <p>Concilium Subscription Form
-Individual issues can now be bought at our new website <a href="www.conciliumjournal.co.uk">www.conciliumjournal.co.uk</a>
+Individual issues can now be bought at our new website <a href="http://www.conciliumjournal.co.uk">www.conciliumjournal.co.uk</a>
  - Individual Annual Subscription ( Five Issues )
 - Electronic Subscription Form</p>
 
