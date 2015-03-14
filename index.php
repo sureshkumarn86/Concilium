@@ -26,8 +26,8 @@ It is published five times a year.
     </p>
                 
                 <ul id="issue-link">
-                <li class="current-issue"><a href="current-issues.php"> Current Issues</a></li>
-                <li class="future-issue"><a href="future-issues.php">Future Issues</a> </li>
+                <li class="current-issue"><a href="current-issues"> Current Issues</a></li>
+                <li class="future-issue"><a href="future-issues">Future Issues</a> </li>
             <li class="clear"></li>
                 </ul>
            <?php /* <p>

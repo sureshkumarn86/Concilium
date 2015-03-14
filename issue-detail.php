@@ -74,9 +74,9 @@ $iid=isset($_REQUEST['id'])?"'".mysqli_real_escape_string($databaseConnection,$_
 				
 				</div>		<hr/>
 		<ul id="issue-link">
-                <li class="current-issue float-left"><a href="/current-issues.php"> Current Issues</a></li>
-                <li class="future-issue float-left"><a href="/future-issues.php">Future Issues</a> </li>
-                <li class="past-issue float-left"><a href="/past-issues.php">Past Issues</a> </li>
+                <li class="current-issue float-left"><a href="/current-issues"> Current Issues</a></li>
+                <li class="future-issue float-left"><a href="/future-issues">Future Issues</a> </li>
+                <li class="past-issue float-left"><a href="/past-issues">Past Issues</a> </li>
                 <li class="clear"></li>
         </ul>
         
