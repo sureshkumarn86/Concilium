@@ -9,3 +9,4 @@ RewriteRule ^([^\.]+)$ $1.php [NC,L]
 RewriteRule ^issue-detail/(\d*)/(.*)$ issue-detail.php?id=$1 [NC,L]
 RewriteRule ^thumbnail/coverimg/(.*)/(.*)$ thumbnail.php?file=resource/issue-content/$1/$2 [NC,L]
 
+RewriteRule ^(Includes/) - [F,L,NC]

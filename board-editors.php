@@ -7,7 +7,9 @@
 <div class="editor-block">
 <h2>Regina Ammicht Quinn, Germany</h2>
  
-<p>Regina Ammicht Quinn studied Catholic Theology and German Literature. She is a professor at the Interfacultary Centre for Ethics in Science (IZEW), University of T&uuml;bingen. Her publications include: Von Lissabon bis Auschwitz. Zum Paradigmawechsel in der Theodizeefrage, Freiburg 1992; K&ouml;rper, Religion und Sexualit&auml;t. Theologische Reflexion zur Ethik der Geschlechter, Mainz 32004; Gl&uuml;ck &ndash; der Ernst des Lebens, Freiburg i. Br. 2006. She has been awarded the Herbert -Haag Foundation Prize of 2015 for her contribution to Theology of Body.<br class="clear"/></p>
+<p>
+<img class="editor-thumb" alt="Board of Editor" src="resource/image/board-editors/ReginaAmmicht_Quinn.gif"/>
+Regina Ammicht Quinn studied Catholic Theology and German Literature. She is a professor at the Interfacultary Centre for Ethics in Science (IZEW), University of T&uuml;bingen. Her publications include: Von Lissabon bis Auschwitz. Zum Paradigmawechsel in der Theodizeefrage, Freiburg 1992; K&ouml;rper, Religion und Sexualit&auml;t. Theologische Reflexion zur Ethik der Geschlechter, Mainz 32004; Gl&uuml;ck &ndash; der Ernst des Lebens, Freiburg i. Br. 2006. She has been awarded the Herbert -Haag Foundation Prize of 2015 for her contribution to Theology of Body.<br class="clear"/></p>
 
 <h2>Mile Babić, Bosnia Herzegovina</h2>
 
@@ -16,13 +18,16 @@
 
 Mile Babić is born on 26. 11. 1947 in the village Družnovići, Bosnia and Herzegovina. He is a bosnian franciscan and a professor of theology and philosophy. He graduated the History of Literature, obtained Ph.D. in Theology (Christology of Theodoret of Cyrus) and in Philosophy (Hegel&rsquo;s Philosophy of Right). He has been lecturing at the Franciscan Theology in Sarajevo since 1997 until now. He is the editor-in-chief of Miscellany Jukić and a professor of Religious Studies at the University in Sarajevo. The main subject of his research includes the topics such as: Theodoret of Cyrus, John Duns Scotus, Nicolaus Cusanus, G. W. F. Hegel, the contemporary literature, theology and philosophy.<br class="clear"/></p>
 
-<?php /* <h2>Prof. Dr. E.P.N.M. Borgman, The Netherlands</h2>
+<h2>Prof. Dr. E.P.N.M. Borgman, The Netherlands</h2>
 
-<p>Erik (Dr. E.P.N.M.) Borgman (Amsterdam, 1957) is Professor for Systematic Theology &ndash; Theology of Religion, especially Christianity &ndash; in the Department of Religious Studies and Theology of Tilburg University, The Netherlands. He is married with two daughters and is a Lay Dominican. Borgman studied philosophy and theology at the University of Nijmegen. He wrote a dissertation on the different forms of Liberation Theology and their relation to academic Western theology (doctorate in 1990). Between 1998 and 2004 he worked for the Dutch Province of the Order of Preachers to study and keep alive the theology of Edward Schillebeeckx. He published Edward Schillebeeckx: a Theologian in His History.<br class="clear"/></p>
- */?>
+<p>
+<img class="editor-thumb" alt="Board of Editor" src="resource/image/board-editors/Erik Borgman.gif"/>
+
+Erik (Dr. E.P.N.M.) Borgman (Amsterdam, 1957) is Professor for Systematic Theology &ndash; Theology of Religion, especially Christianity &ndash; in the Department of Religious Studies and Theology of Tilburg University, The Netherlands. He is married with two daughters and is a Lay Dominican. Borgman studied philosophy and theology at the University of Nijmegen. He wrote a dissertation on the different forms of Liberation Theology and their relation to academic Western theology (doctorate in 1990). Between 1998 and 2004 he worked for the Dutch Province of the Order of Preachers to study and keep alive the theology of Edward Schillebeeckx. He published Edward Schillebeeckx: a Theologian in His History.<br class="clear"/></p>
+
 <h2>Maria Clara Lucchetti Bingemer, Brazil</h2>
 
-<p><img class="editor-thumb" alt="Board of Editor" src="resource/image/board-editors/Marie_Theres_hacker.gif"/>
+<p><img class="editor-thumb" alt="Board of Editor" src="resource/image/board-editors/Maria_Clara_Bingemer.gif"/>
 Maria Clara Lucchetti Bingemer lives in Rio de Janerio. A lay woman, she is married with three grown-up children and two grand-daughters. She received a doctorate from the Gregorian in 1989 and is currently associate professor in the theology department at the Pontifical Catholic University in Rio and the dean of the Center of Theology and Human Sciences at the same university. She is author of Jesus Cristo: servo de Deus e Messias glorioso, SP, Paulinas, 2008; Simone Weil: la fuerza y la debilidad del amor , Estella, EVD, 2009 (editions in Portuguese and Italian); co-author with Ivone Gebara of Mary: Mother of the Church, Mother of the Poor (1993). Her other publications include Deus trindade:avida no cor&ccedil;&atilde;o do mundo ( 2001, ed); Violệncia e religi&atilde;o. Trệs religi&otilde;es em confronto e dialogo: Cristianismo, Judaismo, Islamismo (2001); A identidade cr&iacute;tica. I dentidade, voca&ccedil;&atilde;o e miss&atilde;o dos leigos (1998); Em tudo amar e server (1990); O segredo femino do mist&eacute;rio (1991)<br class="clear"/></p>
 
 <h2>Lisa Sowle Cahill, USA</h2>
@@ -50,9 +55,7 @@ Sarojini Nadar (PhD) is an Associate Professor in, and director of, the Gender a
 
 <p><img class="editor-thumb" alt="Board of Editor" src="resource/image/board-editors/Daniel_Franklin.gif"/>
 Daniel Franklin Pilario is a professor and present Dean of the Saint Vincent School of Theology, Adamson University, Manila. He received his licentiate and doctorate in theology from the Catholic University of Leuven, Belgium in 1998 and 2002 respectively. His recently published book, Back to the Rough Grounds of Praxis: Exploring Theological Method with Pierre Bourdieu (Leuven, 2005) explores into the possibilities of contemporary theological methods beyond liberation theology and radical orthodoxy. His field of research covers fundamental theology, theological anthropology, inculturation, interreligious dialogue, grassroots organizing, theological methods and political-social theory. He is also a founding member and former president of DAKATEO (Catholic Theological Society of the Philippines).<br class="clear"/></p>
-<h2>Susan Ross, USA</h2>
-<p><img class="editor-thumb" alt="Board of Editor" src="resource/image/board-editors/Susan_Ross.gif"/>
-Susan Ross, USA<br class="clear"/></p>
+
 <h2>Silvia Scatena, Italy</h2>
 
 <p><img class="editor-thumb" alt="Board of Editor" src="resource/image/board-editors/Silvia_Scatena.gif"/>
@@ -65,7 +68,10 @@ Jon Sobrino was born in Barcelona to a Basque family, in1938 and educated in Spa
 
 <h2>Luiz Carlos Susin, Brazil</h2>
 
-<p>Luiz Carlos Susin is professor of systematic theology at the Pontifical Catholic University of Rio Grande do Sul and at the Higher School of Theology and Franciscan Spirituality, both in Porto Alegre, Brazil. He is an ex-president of the Brazilian Society for Theology and Religious Studies, and secretary general of the World Forum for Theology and Liberation. His recent research has been into the relationship between theology and ecology. His publications include A Cria&ccedil;&atilde;o de Deus (2003); Deus, Pai, Filho e Espirito Santo; Jesus, Filho de Deus e Filho de Maria; Assim na terre como no c&eacute;u, some published by Paulinas (S&atilde;o Paulo) and some by Vozes (Petr&oacute;polis).<br class="clear"/></p>
+<p>
+<img class="editor-thumb" alt="Board of Editor" src="resource/image/board-editors/Luiz_Carlos_Susin.gif"/>
+
+Luiz Carlos Susin is professor of systematic theology at the Pontifical Catholic University of Rio Grande do Sul and at the Higher School of Theology and Franciscan Spirituality, both in Porto Alegre, Brazil. He is an ex-president of the Brazilian Society for Theology and Religious Studies, and secretary general of the World Forum for Theology and Liberation. His recent research has been into the relationship between theology and ecology. His publications include A Cria&ccedil;&atilde;o de Deus (2003); Deus, Pai, Filho e Espirito Santo; Jesus, Filho de Deus e Filho de Maria; Assim na terre como no c&eacute;u, some published by Paulinas (S&atilde;o Paulo) and some by Vozes (Petr&oacute;polis).<br class="clear"/></p>
 
 <h2>Andr&eacute;s Torres Queiruga, Spain</h2>
 
@@ -81,10 +87,8 @@ Jo&atilde;o J. Vila-Ch&atilde;, Licentiate in Philosophy at Universida de Cat&oa
 
 <p><img class="editor-thumb" alt="Board of Editor" src="resource/image/board-editors/Marie_Theres_hacker.gif"/>
 Marie-Theres Wacker is Professor of Old Testament and Women&#39;s Studies in Theology in the faculty of Catholic Theology of M&uuml;nster University, Germany. In recent years, she has concentrated her research on topics related to biblical monotheism and Hellenistic Judaism and gender issues in the monotheistic religions. In 2005 her institute held the first German-language symposium on approaches to Theological Masculinity Studies (the proceedings were published as /Mannsbilder. Kritische M&auml;nnerforschung und theologische Frauenforschung im Gespr&auml;ch / Eds Marie-Theres Wacker &amp; Stefanie Rieger-Goertz, 2006).<br class="clear"/></p>
-<h2>Felix Wilfred, India</h2>
 
-<p><img class="editor-thumb" alt="Board of Editor" src="resource/image/board-editors/Felix_Wilfred.gif"/>
-Felix Wilfred, India<br class="clear"/></p>
+
 </div>
 
 <?php 

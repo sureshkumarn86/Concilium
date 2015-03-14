@@ -21,7 +21,7 @@ $iid=isset($_REQUEST['id'])?"'".mysqli_real_escape_string($databaseConnection,$_
 					include("Includes/header.php");
 					if ($result_issue->num_rows > 0) {
 					echo('('.$row1['issueyear'].'/'.$row1['issueterm'].') ');
-					echo('<strong>Auther: '.$row1['issueautherc'].'(c)</strong>, '.$row1['issueauther'].'<br/>');
+					echo('<strong>Editor(s): '.$row1['issueautherc'].'(c)</strong>, '.$row1['issueauther'].'<br/>');
 					$sql = "SELECT articleid,articletitle,issueid,auther,articledate
 						,abstract,status,articleimage from conciarticle where issueid =".$row1['issueid'];
 				

@@ -56,11 +56,15 @@ The writers of the articles are chosen from among the best scholars of the quest
             <div id="gallery-brief" class="float-left">
                 <h1>Gallery</h1>
             <div>
-        <?php for($i=0;$i<6;$i++){ ?>
-                <img alt="gallery" src="resource/image/gallery/home/img<?php echo $i+1?>.jpg"/>
+        <?php 
+        $min=1;
+        $max=20;
+        $rn1=rand($min,$max);
+        for($i=$rn1;$i<$rn1+6;$i++){ ?>
+                <img alt="gallery" src="/gallery/albums/Annual_meet_2010/Annual_meet_2010 (1<?php echo $i+1?>).JPG"/>
         <?php } ?>
                 <br class="clear"/>
-                <a href="gallery.php">Go to Gallery Page&gt;&gt;</a>
+                <a href="/gallery/album">Go to Gallery Page&gt;&gt;</a>
 
             </div>
             </div>

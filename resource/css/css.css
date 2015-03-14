@@ -3,6 +3,9 @@ body {
 h1,h2,h3,h4{
     color: #C32A29;
 }
+.two-col{
+	width:49%;
+}
 .img_logo{
     height: 90px;
     border-radius: 20px 20px 42px 42px;

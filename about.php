@@ -1,5 +1,5 @@
 <?php 
- $pageTitle='About Us';
+ $pageTitle='About Concilium';
         //require_once ("Includes/simplecms-config.php"); 
        // require_once  ("Includes/connectDB.php");
         include("Includes/header.php");         
@@ -28,8 +28,9 @@ As a Catholic Review of Theology, Concilium reaffirms its mission within the ren
 We contribute to ecumenical and to inter-religious dialogue. We deal with global factors and communications, hoping that a renewed church and "another world" are possible (World Social Forum). Thus our Review intends its contribution to the future of Christian tradition of which it is a part and to which it holds itself accountable.
 </p>
 
-<div>
-    <h2>Founders of the International Theological Journal –Concilium</h2>
+<div class=" issue-action">
+<div class="float-left two-col">
+    <h2>Founders</h2>
     <ul>
 <li>	Anton van den Boogaard	</li>
 <li>	Paul Brand	</li>
@@ -39,6 +40,36 @@ We contribute to ecumenical and to inter-religious dialogue. We deal with global
 <li>	Karl Rahner,	</li>
 <li>	Edward Schillebeeckx	</li>
     </ul>
+</div>
+<div class="float-left two-col">
+    <h2>Editors</h2>
+    <ul>
+<li>	Regina Ammicht-Quinn, Frankfurt a. M. Germania	</li>
+<li>	Andrés Torres Queiruga, Santiago de Compostela Spagna	</li>
+<li>	Daniel Franklin Pilario, Quezon City Filippine	</li>
+<li>	Diego Irarrázaval, Santiago Cile	</li>
+<li>	Éloi Messi Metogo, Yaoundé Camerun	</li>
+<li>	Erik Borgman, Nijmegen Olanda	</li>
+<li>	Felix Wilfred, Madras India	</li>
+<li>	Hille Haker, Chicago/IL USA	</li>
+<li>	João J. Vila-Chã, Roma/Barcelos Portogallo	</li>
+<li>	Jon Sobrino, San Salvador El Salvador	</li>
+<li>	Lisa Sowle Cahill, Boston/MA Usa	</li>
+<li>	Luiz Carlos Susin, Porto Alegre/RS Brasile	</li>
+<li>	Maria Clara Bingemer, Rio de Janeiro/RJ Brasile	</li>
+<li>	Marie-Theres Wacker, Münster Germania	</li>
+<li>	Mile BabiĆ, Sarajevo Bosnia-Erzegovina	</li>
+<li>	Sarojini Nadar, Durban Sudafrica	</li>
+<li>	Silvia Scatena, Reggio Emilia Italia	</li>
+<li>	Solange Lefebvre, Montreal/QC Canada	</li>
+<li>	Susan A. Ross, Chicago/IL USA	</li>
+<li>	Thierry-Marie Courau, Paris Francia	</li>
+    
+    </ul>
+    
+    <a href="/board-editors.php">Goto Board of Editors Page&gt;&gt;</a>
+</div>
+<br class="clear"/>
 
 <h2>         Board of Directors</h2>
 

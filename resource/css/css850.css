@@ -3,7 +3,9 @@
 #main-content{
    padding: 2px;
 }
-
+.two-col{
+	width:auto;
+}
 #slider1_container{
     float: none;
 }

@@ -42,6 +42,7 @@ var newsData=null;
 						<li><a href="<?php echo ($_root);?>board-editors">	Board of Editors</a></li>
 						<li><a href="<?php echo ($_root);?>publishers">Publishers</a></li>
 						<li><a href="<?php echo ($_root);?>issues">Issues</a></li>
+						<li><a href="<?php echo ($_root);?>gallery/album">Gallery</a></li>
 						<li><a href="<?php echo ($_root);?>news">News/Statements</a></li>
 		<!-- 				<li><a href="<?php echo ($_root);?>statements">Statements</a></li> -->
 						<li><a href="<?php echo ($_root);?>contact">Contact Us</a></li>
